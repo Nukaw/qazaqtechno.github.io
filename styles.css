@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 20px 0;
+}
+
+#company-a, #company-b, #contact {
+    background: #f4f4f4;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+button.toggle-sections {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+        border:}
